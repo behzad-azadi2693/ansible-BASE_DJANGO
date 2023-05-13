@@ -1,0 +1,901 @@
+2023-05-12 17:36:48,482 p=30744 u=azadi n=ansible | [WARNING]: Unable to parse /home/azadi/Desktop/ansible-base-
+django/ansible/inventory/mai.yml as an inventory source
+
+2023-05-12 17:36:48,482 p=30744 u=azadi n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-05-12 17:36:48,486 p=30744 u=azadi n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2023-05-12 17:36:48,535 p=30744 u=azadi n=ansible | PLAY [default] *****************************************************************
+2023-05-12 17:36:48,576 p=30744 u=azadi n=ansible | TASK [Gathering Facts] *********************************************************
+2023-05-12 17:36:48,837 p=30744 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"ansible.legacy.setup": {"failed": true, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}}, "msg": "The following modules failed to execute: ansible.legacy.setup\n"}
+2023-05-12 17:36:48,838 p=30744 u=azadi n=ansible | PLAY RECAP *********************************************************************
+2023-05-12 17:36:48,839 p=30744 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 17:37:07,489 p=30857 u=azadi n=ansible | [WARNING]: Found both group and host with same name: localhost
+
+2023-05-12 17:37:07,543 p=30857 u=azadi n=ansible | PLAY [default] ******************************************************************************************************
+2023-05-12 17:37:07,583 p=30857 u=azadi n=ansible | TASK [Gathering Facts] **********************************************************************************************
+2023-05-12 17:37:07,661 p=30857 u=azadi n=ansible | fatal: [localhost]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-12 17:37:07,662 p=30857 u=azadi n=ansible | PLAY RECAP **********************************************************************************************************
+2023-05-12 17:37:07,662 p=30857 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-12 17:37:41,154 p=31418 u=azadi n=ansible | PLAY [default] ******************************************************************************************************
+2023-05-12 17:37:41,189 p=31418 u=azadi n=ansible | TASK [Gathering Facts] **********************************************************************************************
+2023-05-12 17:37:41,225 p=31418 u=azadi n=ansible | fatal: [localhost]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-12 17:37:41,226 p=31418 u=azadi n=ansible | PLAY RECAP **********************************************************************************************************
+2023-05-12 17:37:41,226 p=31418 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-12 17:38:37,904 p=31503 u=azadi n=ansible | PLAY [default] ******************************************************************************************************
+2023-05-12 17:38:37,936 p=31503 u=azadi n=ansible | TASK [Gathering Facts] **********************************************************************************************
+2023-05-12 17:38:37,963 p=31503 u=azadi n=ansible | fatal: [localhost]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-12 17:38:37,964 p=31503 u=azadi n=ansible | PLAY RECAP **********************************************************************************************************
+2023-05-12 17:38:37,964 p=31503 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-12 17:39:06,634 p=31540 u=azadi n=ansible | PLAY [default] ******************************************************************************************************
+2023-05-12 17:39:06,666 p=31540 u=azadi n=ansible | TASK [Gathering Facts] **********************************************************************************************
+2023-05-12 17:39:06,694 p=31540 u=azadi n=ansible | fatal: [localhost]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-12 17:39:06,695 p=31540 u=azadi n=ansible | PLAY RECAP **********************************************************************************************************
+2023-05-12 17:39:06,695 p=31540 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-12 17:40:19,478 p=31584 u=azadi n=ansible | PLAY [default] ******************************************************************************************************
+2023-05-12 17:40:19,511 p=31584 u=azadi n=ansible | TASK [Gathering Facts] **********************************************************************************************
+2023-05-12 17:40:19,539 p=31584 u=azadi n=ansible | fatal: [localhost]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-12 17:40:19,540 p=31584 u=azadi n=ansible | PLAY RECAP **********************************************************************************************************
+2023-05-12 17:40:19,540 p=31584 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-12 17:40:30,217 p=31614 u=azadi n=ansible | PLAY [default] ******************************************************************************************************
+2023-05-12 17:40:30,255 p=31614 u=azadi n=ansible | TASK [Gathering Facts] **********************************************************************************************
+2023-05-12 17:40:30,284 p=31614 u=azadi n=ansible | fatal: [localhost]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-12 17:40:30,285 p=31614 u=azadi n=ansible | PLAY RECAP **********************************************************************************************************
+2023-05-12 17:40:30,285 p=31614 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-12 17:40:37,035 p=31631 u=azadi n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: local1
+
+2023-05-12 17:40:37,036 p=31631 u=azadi n=ansible | PLAY [default] ******************************************************************************************************
+2023-05-12 17:40:37,036 p=31631 u=azadi n=ansible | skipping: no hosts matched
+2023-05-12 17:40:37,036 p=31631 u=azadi n=ansible | PLAY RECAP **********************************************************************************************************
+2023-05-12 17:40:55,451 p=31657 u=azadi n=ansible | PLAY [default] ******************************************************************************************************
+2023-05-12 17:40:55,462 p=31657 u=azadi n=ansible | TASK [Gathering Facts] **********************************************************************************************
+2023-05-12 17:40:55,489 p=31657 u=azadi n=ansible | fatal: [localhost]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-12 17:40:55,490 p=31657 u=azadi n=ansible | PLAY RECAP **********************************************************************************************************
+2023-05-12 17:40:55,490 p=31657 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-12 17:43:37,517 p=31699 u=azadi n=ansible | PLAY [default] ******************************************************************************************************
+2023-05-12 17:43:37,527 p=31699 u=azadi n=ansible | TASK [Gathering Facts] **********************************************************************************************
+2023-05-12 17:43:37,553 p=31699 u=azadi n=ansible | fatal: [localhost]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-12 17:43:37,554 p=31699 u=azadi n=ansible | PLAY RECAP **********************************************************************************************************
+2023-05-12 17:43:37,554 p=31699 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-12 17:43:57,659 p=31736 u=azadi n=ansible | PLAY [default] ******************************************************************************************************
+2023-05-12 17:43:57,670 p=31736 u=azadi n=ansible | TASK [Gathering Facts] **********************************************************************************************
+2023-05-12 17:43:57,696 p=31736 u=azadi n=ansible | fatal: [localhost]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-12 17:43:57,697 p=31736 u=azadi n=ansible | PLAY RECAP **********************************************************************************************************
+2023-05-12 17:43:57,697 p=31736 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-12 17:53:44,185 p=31789 u=root n=ansible | PLAY [default] ******************************************************************************************************
+2023-05-12 17:53:44,192 p=31789 u=root n=ansible | TASK [Gathering Facts] **********************************************************************************************
+2023-05-12 17:53:44,210 p=31789 u=root n=ansible | fatal: [localhost]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-12 17:53:44,211 p=31789 u=root n=ansible | PLAY RECAP **********************************************************************************************************
+2023-05-12 17:53:44,212 p=31789 u=root n=ansible | localhost                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-12 19:26:17,909 p=32865 u=azadi n=ansible | PLAY [default] ******************************************************************************************************
+2023-05-12 19:26:17,919 p=32865 u=azadi n=ansible | TASK [Gathering Facts] **********************************************************************************************
+2023-05-12 19:26:17,945 p=32865 u=azadi n=ansible | fatal: [localhost]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-12 19:26:17,946 p=32865 u=azadi n=ansible | PLAY RECAP **********************************************************************************************************
+2023-05-12 19:26:17,946 p=32865 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-12 21:03:44,039 p=4894 u=azadi n=ansible | PLAY [default] *****************************************************************
+2023-05-12 21:03:44,050 p=4894 u=azadi n=ansible | TASK [Gathering Facts] *********************************************************
+2023-05-12 21:03:44,077 p=4894 u=azadi n=ansible | fatal: [localhost]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-12 21:03:44,078 p=4894 u=azadi n=ansible | PLAY RECAP *********************************************************************
+2023-05-12 21:03:44,078 p=4894 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-12 21:05:09,611 p=5277 u=azadi n=ansible | PLAY [default] *****************************************************************
+2023-05-12 21:05:09,625 p=5277 u=azadi n=ansible | TASK [default : Install Git] ***************************************************
+2023-05-12 21:05:09,650 p=5277 u=azadi n=ansible | fatal: [localhost]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-12 21:05:09,651 p=5277 u=azadi n=ansible | PLAY RECAP *********************************************************************
+2023-05-12 21:05:09,651 p=5277 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-12 21:05:50,567 p=5306 u=azadi n=ansible | PLAY [Test commands] ***********************************************************
+2023-05-12 21:05:50,581 p=5306 u=azadi n=ansible | TASK [Test local action] *******************************************************
+2023-05-12 21:05:50,943 p=5306 u=azadi n=ansible | changed: [localhost]
+2023-05-12 21:05:50,954 p=5306 u=azadi n=ansible | PLAY RECAP *********************************************************************
+2023-05-12 21:05:50,954 p=5306 u=azadi n=ansible | localhost                  : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-12 21:06:33,179 p=5369 u=azadi n=ansible | PLAY [Test commands] ***********************************************************
+2023-05-12 21:06:33,193 p=5369 u=azadi n=ansible | TASK [Test local action] *******************************************************
+2023-05-12 21:06:33,537 p=5369 u=azadi n=ansible | changed: [localhost]
+2023-05-12 21:06:33,549 p=5369 u=azadi n=ansible | PLAY RECAP *********************************************************************
+2023-05-12 21:06:33,549 p=5369 u=azadi n=ansible | localhost                  : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-12 21:06:52,392 p=5420 u=azadi n=ansible | PLAY [Test commands] ***********************************************************
+2023-05-12 21:06:52,406 p=5420 u=azadi n=ansible | TASK [default : Install Git] ***************************************************
+2023-05-12 21:06:59,975 p=5420 u=azadi n=ansible | ok: [localhost]
+2023-05-12 21:06:59,978 p=5420 u=azadi n=ansible | TASK [default : Create Directory] **********************************************
+2023-05-12 21:07:00,266 p=5420 u=azadi n=ansible | changed: [localhost]
+2023-05-12 21:07:00,270 p=5420 u=azadi n=ansible | TASK [default : installa dependency] *******************************************
+2023-05-12 21:08:00,613 p=5420 u=azadi n=ansible | failed: [localhost] (item=apt-transport-https) => {"ansible_loop_var": "item", "changed": false, "item": "apt-transport-https", "msg": "Failed to lock apt for exclusive operation: Failed to lock directory /var/lib/apt/lists/: E:Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)"}
+2023-05-12 21:09:01,074 p=5420 u=azadi n=ansible | failed: [localhost] (item=ca-certificates) => {"ansible_loop_var": "item", "changed": false, "item": "ca-certificates", "msg": "Failed to lock apt for exclusive operation: Failed to lock directory /var/lib/apt/lists/: E:Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)"}
+2023-05-12 21:10:01,533 p=5420 u=azadi n=ansible | failed: [localhost] (item=curl) => {"ansible_loop_var": "item", "changed": false, "item": "curl", "msg": "Failed to lock apt for exclusive operation: Failed to lock directory /var/lib/apt/lists/: E:Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)"}
+2023-05-12 21:11:02,105 p=5420 u=azadi n=ansible | failed: [localhost] (item=gnupg-agent) => {"ansible_loop_var": "item", "changed": false, "item": "gnupg-agent", "msg": "Failed to lock apt for exclusive operation: Failed to lock directory /var/lib/apt/lists/: E:Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)"}
+2023-05-12 21:12:02,436 p=5420 u=azadi n=ansible | failed: [localhost] (item=software-properties-common) => {"ansible_loop_var": "item", "changed": false, "item": "software-properties-common", "msg": "Failed to lock apt for exclusive operation: Failed to lock directory /var/lib/apt/lists/: E:Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)"}
+2023-05-12 21:12:02,441 p=5420 u=azadi n=ansible | PLAY RECAP *********************************************************************
+2023-05-12 21:12:02,441 p=5420 u=azadi n=ansible | localhost                  : ok=2    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 21:22:47,912 p=7486 u=azadi n=ansible | PLAY [Test commands] ***********************************************************
+2023-05-12 21:22:47,926 p=7486 u=azadi n=ansible | TASK [default : Install Git] ***************************************************
+2023-05-12 21:22:48,149 p=7486 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2023-05-12 21:22:48,150 p=7486 u=azadi n=ansible | PLAY RECAP *********************************************************************
+2023-05-12 21:22:48,151 p=7486 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 21:23:14,122 p=7547 u=azadi n=ansible | PLAY [Test commands] ***********************************************************
+2023-05-12 21:23:14,135 p=7547 u=azadi n=ansible | TASK [Test local action] *******************************************************
+2023-05-12 21:23:14,480 p=7547 u=azadi n=ansible | changed: [localhost]
+2023-05-12 21:23:14,491 p=7547 u=azadi n=ansible | PLAY RECAP *********************************************************************
+2023-05-12 21:23:14,491 p=7547 u=azadi n=ansible | localhost                  : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-12 21:23:27,680 p=7597 u=azadi n=ansible | PLAY [Test commands] ***********************************************************
+2023-05-12 21:23:27,693 p=7597 u=azadi n=ansible | TASK [Test local action] *******************************************************
+2023-05-12 21:23:28,037 p=7597 u=azadi n=ansible | changed: [localhost]
+2023-05-12 21:23:28,048 p=7597 u=azadi n=ansible | PLAY RECAP *********************************************************************
+2023-05-12 21:23:28,048 p=7597 u=azadi n=ansible | localhost                  : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-12 21:23:31,180 p=7639 u=azadi n=ansible | PLAY [Test commands] ***********************************************************
+2023-05-12 21:23:31,194 p=7639 u=azadi n=ansible | TASK [Test local action] *******************************************************
+2023-05-12 21:23:31,538 p=7639 u=azadi n=ansible | changed: [localhost]
+2023-05-12 21:23:31,549 p=7639 u=azadi n=ansible | PLAY RECAP *********************************************************************
+2023-05-12 21:23:31,550 p=7639 u=azadi n=ansible | localhost                  : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-12 21:23:37,885 p=7684 u=azadi n=ansible | PLAY [Test commands] ***********************************************************
+2023-05-12 21:23:37,898 p=7684 u=azadi n=ansible | TASK [Test local action] *******************************************************
+2023-05-12 21:23:38,241 p=7684 u=azadi n=ansible | changed: [localhost]
+2023-05-12 21:23:38,251 p=7684 u=azadi n=ansible | PLAY RECAP *********************************************************************
+2023-05-12 21:23:38,251 p=7684 u=azadi n=ansible | localhost                  : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-12 21:24:35,390 p=7801 u=azadi n=ansible | PLAY [Test commands] ***********************************************************
+2023-05-12 21:24:35,404 p=7801 u=azadi n=ansible | TASK [Test local action] *******************************************************
+2023-05-12 21:24:35,744 p=7801 u=azadi n=ansible | changed: [localhost]
+2023-05-12 21:24:35,755 p=7801 u=azadi n=ansible | PLAY RECAP *********************************************************************
+2023-05-12 21:24:35,755 p=7801 u=azadi n=ansible | localhost                  : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-12 21:25:06,136 p=7868 u=azadi n=ansible | PLAY [Test commands] ***********************************************************
+2023-05-12 21:25:06,150 p=7868 u=azadi n=ansible | TASK [default : Install Git] ***************************************************
+2023-05-12 21:25:06,373 p=7868 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2023-05-12 21:25:06,374 p=7868 u=azadi n=ansible | PLAY RECAP *********************************************************************
+2023-05-12 21:25:06,374 p=7868 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 21:27:21,447 p=8058 u=azadi n=ansible | PLAY [Test commands] ***********************************************************
+2023-05-12 21:27:21,461 p=8058 u=azadi n=ansible | TASK [default : Create Directory] **********************************************
+2023-05-12 21:27:21,662 p=8058 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2023-05-12 21:27:21,663 p=8058 u=azadi n=ansible | PLAY RECAP *********************************************************************
+2023-05-12 21:27:21,663 p=8058 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 21:27:33,890 p=8107 u=azadi n=ansible | PLAY [Test commands] ***********************************************************
+2023-05-12 21:27:33,904 p=8107 u=azadi n=ansible | TASK [default : Install Git] ***************************************************
+2023-05-12 21:27:34,125 p=8107 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2023-05-12 21:27:34,126 p=8107 u=azadi n=ansible | PLAY RECAP *********************************************************************
+2023-05-12 21:27:34,126 p=8107 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 21:27:51,081 p=8164 u=azadi n=ansible | PLAY [Test commands] ***********************************************************
+2023-05-12 21:27:51,097 p=8164 u=azadi n=ansible | TASK [default : Install Git] ***************************************************
+2023-05-12 21:27:51,323 p=8164 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2023-05-12 21:27:51,324 p=8164 u=azadi n=ansible | PLAY RECAP *********************************************************************
+2023-05-12 21:27:51,324 p=8164 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 21:28:26,333 p=8228 u=azadi n=ansible | PLAY [Install prerquirements] **************************************************
+2023-05-12 21:28:26,347 p=8228 u=azadi n=ansible | TASK [Test local action] *******************************************************
+2023-05-12 21:28:26,686 p=8228 u=azadi n=ansible | changed: [localhost]
+2023-05-12 21:28:26,696 p=8228 u=azadi n=ansible | PLAY RECAP *********************************************************************
+2023-05-12 21:28:26,696 p=8228 u=azadi n=ansible | localhost                  : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-12 21:29:10,639 p=8409 u=azadi n=ansible | PLAY [Install prerquirements] **************************************************
+2023-05-12 21:29:10,653 p=8409 u=azadi n=ansible | TASK [default : Install Git] ***************************************************
+2023-05-12 21:29:10,875 p=8409 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2023-05-12 21:29:10,876 p=8409 u=azadi n=ansible | PLAY RECAP *********************************************************************
+2023-05-12 21:29:10,876 p=8409 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 21:29:46,776 p=8601 u=azadi n=ansible | PLAY [Install prerquirements] **************************************************
+2023-05-12 21:29:46,790 p=8601 u=azadi n=ansible | TASK [default : Install Git] ***************************************************
+2023-05-12 21:30:47,460 p=8601 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "changed": false, "msg": "Failed to lock apt for exclusive operation: Failed to lock directory /var/lib/apt/lists/: E:Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)"}
+2023-05-12 21:30:47,461 p=8601 u=azadi n=ansible | PLAY RECAP *********************************************************************
+2023-05-12 21:30:47,461 p=8601 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 21:34:18,485 p=9754 u=azadi n=ansible | PLAY [Install prerquirements] **************************************************
+2023-05-12 21:34:18,499 p=9754 u=azadi n=ansible | TASK [default : Install Git] ***************************************************
+2023-05-12 21:35:19,097 p=9754 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "changed": false, "msg": "Failed to lock apt for exclusive operation: Failed to lock directory /var/lib/apt/lists/: E:Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)"}
+2023-05-12 21:35:19,098 p=9754 u=azadi n=ansible | PLAY RECAP *********************************************************************
+2023-05-12 21:35:19,098 p=9754 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 21:39:34,526 p=11029 u=azadi n=ansible | PLAY [Install prerquirements] **************************************************
+2023-05-12 21:39:34,540 p=11029 u=azadi n=ansible | TASK [default : Install Git] ***************************************************
+2023-05-12 21:40:35,063 p=11029 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "changed": false, "msg": "Failed to lock apt for exclusive operation: Failed to lock directory /var/lib/apt/lists/: E:Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)"}
+2023-05-12 21:40:35,064 p=11029 u=azadi n=ansible | PLAY RECAP *********************************************************************
+2023-05-12 21:40:35,064 p=11029 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 22:44:46,386 p=24354 u=azadi n=ansible | ERROR! this task 'sell' has extra params, which is only allowed in the following modules: ansible.builtin.raw, ansible.legacy.set_fact, win_command, ansible.builtin.import_tasks, ansible.legacy.include_role, ansible.legacy.raw, ansible.legacy.include, include, win_shell, script, import_role, ansible.builtin.command, ansible.builtin.add_host, ansible.legacy.import_role, ansible.builtin.import_role, ansible.legacy.group_by, ansible.windows.win_command, ansible.legacy.meta, include_tasks, add_host, ansible.legacy.include_tasks, ansible.legacy.command, ansible.legacy.import_tasks, shell, ansible.legacy.script, ansible.builtin.include_role, meta, import_tasks, ansible.builtin.include_tasks, ansible.builtin.include_vars, set_fact, ansible.legacy.shell, ansible.builtin.win_shell, include_role, ansible.builtin.script, raw, ansible.legacy.add_host, ansible.legacy.win_shell, ansible.legacy.include_vars, ansible.builtin.set_fact, ansible.legacy.win_command, group_by, ansible.builtin.include, ansible.builtin.group_by, command, include_vars, ansible.builtin.meta, ansible.builtin.shell, ansible.windows.win_shell, ansible.builtin.win_command
+
+The error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/roles/default/tasks/main.yml': line 4, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Install Git
+  ^ here
+
+2023-05-12 22:46:02,837 p=24685 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 22:46:02,854 p=24685 u=azadi n=ansible | TASK [default : RUN SHEL] **************************************************************************************
+2023-05-12 22:46:03,209 p=24685 u=azadi n=ansible | changed: [localhost]
+2023-05-12 22:46:03,224 p=24685 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 22:46:03,224 p=24685 u=azadi n=ansible | localhost                  : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-12 22:46:29,095 p=24826 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 22:46:29,112 p=24826 u=azadi n=ansible | TASK [default : RUN SHEL] **************************************************************************************
+2023-05-12 22:46:29,132 p=24826 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'VER' is undefined. 'VER' is undefined\n\nThe error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/roles/default/tasks/main.yml': line 4, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: RUN SHEL\n  ^ here\n"}
+2023-05-12 22:46:29,133 p=24826 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 22:46:29,133 p=24826 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 22:46:36,546 p=24866 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 22:46:36,561 p=24866 u=azadi n=ansible | TASK [default : RUN SHEL] **************************************************************************************
+2023-05-12 22:46:36,580 p=24866 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'VER' is undefined. 'VER' is undefined\n\nThe error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/roles/default/tasks/main.yml': line 4, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: RUN SHEL\n  ^ here\n"}
+2023-05-12 22:46:36,581 p=24866 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 22:46:36,581 p=24866 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 22:47:55,241 p=25215 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 22:47:55,261 p=25215 u=azadi n=ansible | TASK [default : RUN SHEL] **************************************************************************************
+2023-05-12 22:47:55,629 p=25215 u=azadi n=ansible | changed: [localhost]
+2023-05-12 22:47:55,644 p=25215 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 22:47:55,645 p=25215 u=azadi n=ansible | localhost                  : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-12 22:48:00,613 p=25276 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 22:48:00,631 p=25276 u=azadi n=ansible | TASK [default : RUN SHEL] **************************************************************************************
+2023-05-12 22:48:01,011 p=25276 u=azadi n=ansible | changed: [localhost]
+2023-05-12 22:48:01,028 p=25276 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 22:48:01,028 p=25276 u=azadi n=ansible | localhost                  : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-12 22:50:23,885 p=25802 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 22:50:23,901 p=25802 u=azadi n=ansible | TASK [default : RUN SHEL] **************************************************************************************
+2023-05-12 22:50:23,921 p=25802 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'VER' is undefined. 'VER' is undefined\n\nThe error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/roles/default/tasks/main.yml': line 4, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: RUN SHEL\n  ^ here\n"}
+2023-05-12 22:50:23,922 p=25802 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 22:50:23,922 p=25802 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 22:52:56,873 p=26359 u=azadi n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  found unacceptable key (unhashable type: 'AnsibleMapping')
+
+The error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/roles/default/tasks/main.yml': line 4, column 11, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+- name: RUN SHEL
+  debug: {{ VER }}
+          ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2023-05-12 22:53:06,503 p=26399 u=azadi n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  found unacceptable key (unhashable type: 'AnsibleMapping')
+
+The error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/roles/default/tasks/main.yml': line 4, column 11, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+- name: RUN SHEL
+  debug: {{ VER }}
+          ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2023-05-12 22:53:57,447 p=26596 u=azadi n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  found unacceptable key (unhashable type: 'AnsibleMapping')
+
+The error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/roles/default/tasks/main.yml': line 5, column 11, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  debug:
+    msg: {{ VER }}
+          ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2023-05-12 22:54:16,135 p=26682 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 22:54:16,151 p=26682 u=azadi n=ansible | TASK [default : RUN test] **************************************************************************************
+2023-05-12 22:54:16,173 p=26682 u=azadi n=ansible | ok: [localhost] => {
+    "msg": "HI"
+}
+2023-05-12 22:54:16,177 p=26682 u=azadi n=ansible | TASK [default : RUN SHEL] **************************************************************************************
+2023-05-12 22:54:16,517 p=26682 u=azadi n=ansible | changed: [localhost]
+2023-05-12 22:54:16,532 p=26682 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 22:54:16,532 p=26682 u=azadi n=ansible | localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-12 22:55:00,088 p=26891 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 22:55:00,103 p=26891 u=azadi n=ansible | TASK [default : print msg] *************************************************************************************
+2023-05-12 22:55:00,124 p=26891 u=azadi n=ansible | ok: [localhost] => {
+    "msg": "initial default"
+}
+2023-05-12 22:55:00,128 p=26891 u=azadi n=ansible | TASK [default : RUN SHEL] **************************************************************************************
+2023-05-12 22:55:00,469 p=26891 u=azadi n=ansible | changed: [localhost]
+2023-05-12 22:55:00,485 p=26891 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 22:55:00,485 p=26891 u=azadi n=ansible | localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-12 22:55:17,373 p=26996 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 22:55:17,390 p=26996 u=azadi n=ansible | TASK [default : print msg] *************************************************************************************
+2023-05-12 22:55:17,410 p=26996 u=azadi n=ansible | ok: [localhost] => {
+    "msg": "initial default"
+}
+2023-05-12 22:55:17,414 p=26996 u=azadi n=ansible | TASK [default : RUN SHEL] **************************************************************************************
+2023-05-12 22:55:17,430 p=26996 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'VER' is undefined. 'VER' is undefined\n\nThe error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/roles/default/tasks/main.yml': line 7, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: RUN SHEL\n  ^ here\n"}
+2023-05-12 22:55:17,431 p=26996 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 22:55:17,431 p=26996 u=azadi n=ansible | localhost                  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 22:56:53,106 p=27392 u=azadi n=ansible | ERROR! conflicting action statements: nmme, debug
+
+The error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/roles/default/tasks/main.yml': line 3, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- nmme: print messages
+  ^ here
+
+2023-05-12 22:57:05,154 p=27447 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 22:57:05,171 p=27447 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-12 22:57:05,192 p=27447 u=azadi n=ansible | ok: [localhost] => {
+    "msg": "Initial default"
+}
+2023-05-12 22:57:05,196 p=27447 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-12 22:57:05,426 p=27447 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2023-05-12 22:57:05,427 p=27447 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 22:57:05,427 p=27447 u=azadi n=ansible | localhost                  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 22:58:36,100 p=27796 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 22:58:36,116 p=27796 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-12 22:58:36,138 p=27796 u=azadi n=ansible | ok: [localhost] => {
+    "msg": "Initial default"
+}
+2023-05-12 22:58:36,142 p=27796 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-12 22:58:36,365 p=27796 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2023-05-12 22:58:36,366 p=27796 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 22:58:36,366 p=27796 u=azadi n=ansible | localhost                  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 22:58:53,328 p=27915 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 22:58:53,344 p=27915 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-12 22:58:53,368 p=27915 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'VER' is undefined. 'VER' is undefined\n\nThe error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/roles/default/tasks/main.yml': line 3, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: print messages\n  ^ here\n"}
+2023-05-12 22:58:53,369 p=27915 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 22:58:53,369 p=27915 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 22:58:57,958 p=27938 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 22:58:57,973 p=27938 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-12 22:58:57,993 p=27938 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'VER' is undefined. 'VER' is undefined\n\nThe error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/roles/default/tasks/main.yml': line 3, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: print messages\n  ^ here\n"}
+2023-05-12 22:58:57,994 p=27938 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 22:58:57,995 p=27938 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 22:59:39,740 p=28103 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 22:59:39,756 p=28103 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-12 22:59:39,780 p=28103 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'VER' is undefined. 'VER' is undefined\n\nThe error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/roles/default/tasks/main.yml': line 3, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: print messages\n  ^ here\n"}
+2023-05-12 22:59:39,781 p=28103 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 22:59:39,781 p=28103 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 23:00:43,192 p=28335 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 23:00:43,209 p=28335 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-12 23:00:43,232 p=28335 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'VER' is undefined. 'VER' is undefined\n\nThe error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/roles/default/tasks/main.yml': line 3, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: print messages\n  ^ here\n"}
+2023-05-12 23:00:43,232 p=28335 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 23:00:43,233 p=28335 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 23:00:51,670 p=28373 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 23:00:51,686 p=28373 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-12 23:00:51,708 p=28373 u=azadi n=ansible | ok: [localhost] => {
+    "msg": "Initial default "
+}
+2023-05-12 23:00:51,712 p=28373 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-12 23:00:51,947 p=28373 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2023-05-12 23:00:51,948 p=28373 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 23:00:51,948 p=28373 u=azadi n=ansible | localhost                  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 23:01:40,010 p=28612 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 23:01:40,027 p=28612 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-12 23:01:40,050 p=28612 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'VER' is undefined. 'VER' is undefined\n\nThe error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/roles/default/tasks/main.yml': line 3, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: print messages\n  ^ here\n"}
+2023-05-12 23:01:40,051 p=28612 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 23:01:40,051 p=28612 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 23:01:49,259 p=28658 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 23:01:49,274 p=28658 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-12 23:01:49,297 p=28658 u=azadi n=ansible | ok: [localhost] => {
+    "msg": "Initial default"
+}
+2023-05-12 23:01:49,301 p=28658 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-12 23:01:49,525 p=28658 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2023-05-12 23:01:49,526 p=28658 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 23:01:49,526 p=28658 u=azadi n=ansible | localhost                  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 23:04:05,130 p=29190 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 23:04:05,146 p=29190 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-12 23:04:05,170 p=29190 u=azadi n=ansible | ok: [localhost] => {
+    "msg": "Initial default hi"
+}
+2023-05-12 23:04:05,174 p=29190 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-12 23:04:05,393 p=29190 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2023-05-12 23:04:05,395 p=29190 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 23:04:05,395 p=29190 u=azadi n=ansible | localhost                  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 23:04:42,075 p=29376 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 23:04:42,091 p=29376 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-12 23:04:42,117 p=29376 u=azadi n=ansible | ok: [localhost] => {
+    "msg": "Initial default hi"
+}
+2023-05-12 23:04:42,120 p=29376 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-12 23:04:42,308 p=29376 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2023-05-12 23:04:42,309 p=29376 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 23:04:42,309 p=29376 u=azadi n=ansible | localhost                  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 23:10:40,513 p=30626 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 23:10:40,529 p=30626 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-12 23:10:40,553 p=30626 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'HOME' is undefined. 'HOME' is undefined\n\nThe error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/roles/default/tasks/main.yml': line 3, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: print messages\n  ^ here\n"}
+2023-05-12 23:10:40,554 p=30626 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 23:10:40,554 p=30626 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 23:11:29,862 p=30815 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 23:11:29,878 p=30815 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-12 23:11:29,901 p=30815 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'VER' is undefined. 'VER' is undefined\n\nThe error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/roles/default/tasks/main.yml': line 3, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: print messages\n  ^ here\n"}
+2023-05-12 23:11:29,902 p=30815 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 23:11:29,902 p=30815 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 23:11:42,827 p=30885 u=azadi n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  found unacceptable key (unhashable type: 'AnsibleMapping')
+
+The error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/roles/default/tasks/main.yml': line 5, column 11, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  debug:
+    var: {{ VER }}
+          ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2023-05-12 23:12:02,269 p=30959 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 23:12:02,286 p=30959 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-12 23:12:02,310 p=30959 u=azadi n=ansible | ok: [localhost] => {
+    "VER": "VARIABLE IS NOT DEFINED!"
+}
+2023-05-12 23:12:02,314 p=30959 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-12 23:12:02,501 p=30959 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2023-05-12 23:12:02,502 p=30959 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 23:12:02,503 p=30959 u=azadi n=ansible | localhost                  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 23:12:33,121 p=31106 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 23:12:33,136 p=31106 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-12 23:12:33,157 p=31106 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'VER' is undefined. 'VER' is undefined\n\nThe error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/roles/default/tasks/main.yml': line 3, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: print messages\n  ^ here\n"}
+2023-05-12 23:12:33,158 p=31106 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 23:12:33,158 p=31106 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 23:12:48,921 p=31181 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 23:12:48,935 p=31181 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-12 23:12:48,955 p=31181 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'VER' is undefined. 'VER' is undefined\n\nThe error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/roles/default/tasks/main.yml': line 3, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: print messages\n  ^ here\n"}
+2023-05-12 23:12:48,956 p=31181 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 23:12:48,956 p=31181 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 23:13:03,051 p=31238 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 23:13:03,066 p=31238 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-12 23:13:03,091 p=31238 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'VER' is undefined. 'VER' is undefined\n\nThe error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/roles/default/tasks/main.yml': line 3, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: print messages\n  ^ here\n"}
+2023-05-12 23:13:03,092 p=31238 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 23:13:03,092 p=31238 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 23:13:52,580 p=31437 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 23:13:52,597 p=31437 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-12 23:13:52,621 p=31437 u=azadi n=ansible | ok: [default] => {
+    "msg": "Initial default HI"
+}
+2023-05-12 23:13:52,625 p=31437 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-12 23:13:52,847 p=31437 u=azadi n=ansible | fatal: [default]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2023-05-12 23:13:52,848 p=31437 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 23:13:52,848 p=31437 u=azadi n=ansible | default                    : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-12 23:17:05,240 p=32194 u=azadi n=ansible | ERROR! Vars in a Play must be specified as a dictionary, or a list of dictionaries
+
+The error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/playbook/default.yml': line 7, column 9, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  gather_facts: false
+  vars: "{{ lookup('ini', MY_VAR_NAME file=.env) }}"
+        ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2023-05-12 23:17:25,560 p=32280 u=azadi n=ansible | ERROR! Vars in a Play must be specified as a dictionary, or a list of dictionaries
+
+The error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/playbook/default.yml': line 7, column 9, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  gather_facts: false
+  vars: "{{ lookup('ini', MY_VAR_NAME file=.env) }}"
+        ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2023-05-12 23:18:06,215 p=32436 u=azadi n=ansible | ERROR! Vars in a Play must be specified as a dictionary, or a list of dictionaries
+
+The error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/playbook/default.yml': line 7, column 9, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  gather_facts: false
+  vars: "{{ lookup('ini', 'MY_VAR_NAME file=.env') }}"
+        ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2023-05-12 23:30:16,359 p=35319 u=azadi n=ansible | ERROR! Vars in a Play must be specified as a dictionary, or a list of dictionaries
+
+The error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/playbook/default.yml': line 7, column 9, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  gather_facts: false
+  vars: "{{ lookup('ini', 'MY_VAR_NAME file=.env') }}"
+        ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2023-05-12 23:34:57,463 p=36466 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-12 23:34:57,481 p=36466 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-12 23:34:57,504 p=36466 u=azadi n=ansible | ok: [default] => {
+    "msg": "Initial default HI"
+}
+2023-05-12 23:34:57,508 p=36466 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-12 23:34:57,770 p=36466 u=azadi n=ansible | fatal: [default]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2023-05-12 23:34:57,771 p=36466 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-12 23:34:57,771 p=36466 u=azadi n=ansible | default                    : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:18:05,478 p=45718 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-13 00:18:05,499 p=45718 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-13 00:18:05,524 p=45718 u=azadi n=ansible | ok: [default] => {
+    "msg": "Initial default HI"
+}
+2023-05-13 00:18:05,527 p=45718 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-13 00:19:06,147 p=45718 u=azadi n=ansible | fatal: [default]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "changed": false, "msg": "Failed to lock apt for exclusive operation: Failed to lock directory /var/lib/apt/lists/: E:Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)"}
+2023-05-13 00:19:06,148 p=45718 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:19:06,148 p=45718 u=azadi n=ansible | default                    : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:22:55,169 p=46997 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-13 00:22:55,188 p=46997 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-13 00:22:55,210 p=46997 u=azadi n=ansible | ok: [default] => {
+    "msg": "Initial default HI"
+}
+2023-05-13 00:22:55,214 p=46997 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-13 00:22:55,440 p=46997 u=azadi n=ansible | fatal: [default]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2023-05-13 00:22:55,441 p=46997 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:22:55,441 p=46997 u=azadi n=ansible | default                    : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:25:21,066 p=47581 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-13 00:25:21,083 p=47581 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-13 00:25:21,104 p=47581 u=azadi n=ansible | ok: [default] => {
+    "msg": "Initial default HI"
+}
+2023-05-13 00:25:21,108 p=47581 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-13 00:25:21,345 p=47581 u=azadi n=ansible | fatal: [default]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2023-05-13 00:25:21,347 p=47581 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:25:21,347 p=47581 u=azadi n=ansible | default                    : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:26:40,058 p=47937 u=azadi n=ansible | PLAY [My Localhost Playbook] ***********************************************************************************
+2023-05-13 00:26:40,102 p=47937 u=azadi n=ansible | TASK [Gathering Facts] *****************************************************************************************
+2023-05-13 00:26:40,129 p=47937 u=azadi n=ansible | fatal: [default]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-13 00:26:40,130 p=47937 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:26:40,131 p=47937 u=azadi n=ansible | default                    : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:27:02,986 p=48043 u=azadi n=ansible | PLAY [My Localhost Playbook] ***********************************************************************************
+2023-05-13 00:27:02,998 p=48043 u=azadi n=ansible | TASK [Gathering Facts] *****************************************************************************************
+2023-05-13 00:27:03,023 p=48043 u=azadi n=ansible | fatal: [default]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-13 00:27:03,024 p=48043 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:27:03,024 p=48043 u=azadi n=ansible | default                    : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:27:08,610 p=48071 u=azadi n=ansible | PLAY [My Localhost Playbook] ***********************************************************************************
+2023-05-13 00:27:08,621 p=48071 u=azadi n=ansible | TASK [Gathering Facts] *****************************************************************************************
+2023-05-13 00:27:09,019 p=48071 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"ansible.legacy.setup": {"failed": true, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}}, "msg": "The following modules failed to execute: ansible.legacy.setup\n"}
+2023-05-13 00:27:09,020 p=48071 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:27:09,020 p=48071 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:27:47,131 p=48249 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-13 00:27:47,153 p=48249 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-13 00:27:47,176 p=48249 u=azadi n=ansible | ok: [default] => {
+    "msg": "Initial default HI"
+}
+2023-05-13 00:27:47,180 p=48249 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-13 00:27:47,408 p=48249 u=azadi n=ansible | fatal: [default]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2023-05-13 00:27:47,409 p=48249 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:27:47,409 p=48249 u=azadi n=ansible | default                    : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:28:40,962 p=48505 u=azadi n=ansible | PLAY [My Localhost Playbook] ***********************************************************************************
+2023-05-13 00:28:40,971 p=48505 u=azadi n=ansible | TASK [Gathering Facts] *****************************************************************************************
+2023-05-13 00:28:40,997 p=48505 u=azadi n=ansible | fatal: [default]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-13 00:28:40,998 p=48505 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:28:40,998 p=48505 u=azadi n=ansible | default                    : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:30:16,956 p=48890 u=azadi n=ansible | PLAY [My Localhost Playbook] ***********************************************************************************
+2023-05-13 00:30:16,968 p=48890 u=azadi n=ansible | TASK [Gathering Facts] *****************************************************************************************
+2023-05-13 00:30:16,999 p=48890 u=azadi n=ansible | fatal: [default]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-13 00:30:17,000 p=48890 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:30:17,000 p=48890 u=azadi n=ansible | default                    : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:30:31,133 p=48960 u=azadi n=ansible | PLAY [My Localhost Playbook] ***********************************************************************************
+2023-05-13 00:30:31,145 p=48960 u=azadi n=ansible | TASK [Gathering Facts] *****************************************************************************************
+2023-05-13 00:30:31,448 p=48960 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"ansible.legacy.setup": {"failed": true, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}}, "msg": "The following modules failed to execute: ansible.legacy.setup\n"}
+2023-05-13 00:30:31,448 p=48960 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:30:31,449 p=48960 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:30:46,125 p=49053 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-13 00:30:46,145 p=49053 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-13 00:30:46,165 p=49053 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'VER' is undefined. 'VER' is undefined\n\nThe error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/roles/default/tasks/main.yml': line 3, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: print messages\n  ^ here\n"}
+2023-05-13 00:30:46,166 p=49053 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:30:46,166 p=49053 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:31:22,397 p=49199 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-13 00:31:22,417 p=49199 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-13 00:31:22,439 p=49199 u=azadi n=ansible | ok: [default] => {
+    "msg": "Initial default HI"
+}
+2023-05-13 00:31:22,443 p=49199 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-13 00:31:22,672 p=49199 u=azadi n=ansible | fatal: [default]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2023-05-13 00:31:22,673 p=49199 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:31:22,673 p=49199 u=azadi n=ansible | default                    : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:31:45,109 p=49326 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-13 00:31:45,126 p=49326 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-13 00:31:45,148 p=49326 u=azadi n=ansible | ok: [default] => {
+    "msg": "Initial default HI"
+}
+2023-05-13 00:31:45,152 p=49326 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-13 00:31:45,380 p=49326 u=azadi n=ansible | fatal: [default]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2023-05-13 00:31:45,381 p=49326 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:31:45,381 p=49326 u=azadi n=ansible | default                    : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:31:54,633 p=49407 u=azadi n=ansible | PLAY [My Localhost Playbook] ***********************************************************************************
+2023-05-13 00:31:54,646 p=49407 u=azadi n=ansible | TASK [Gathering Facts] *****************************************************************************************
+2023-05-13 00:31:54,675 p=49407 u=azadi n=ansible | fatal: [default]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-13 00:31:54,676 p=49407 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:31:54,677 p=49407 u=azadi n=ansible | default                    : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:32:12,704 p=49483 u=azadi n=ansible | PLAY [My Localhost Playbook] ***********************************************************************************
+2023-05-13 00:32:12,716 p=49483 u=azadi n=ansible | TASK [Gathering Facts] *****************************************************************************************
+2023-05-13 00:32:12,744 p=49483 u=azadi n=ansible | fatal: [default]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-13 00:32:12,745 p=49483 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:32:12,745 p=49483 u=azadi n=ansible | default                    : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:32:41,150 p=49611 u=azadi n=ansible | PLAY [Install prerquirements] **********************************************************************************
+2023-05-13 00:32:41,171 p=49611 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-13 00:32:41,192 p=49611 u=azadi n=ansible | ok: [default] => {
+    "msg": "Initial default HI"
+}
+2023-05-13 00:32:41,196 p=49611 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-13 00:32:41,425 p=49611 u=azadi n=ansible | fatal: [default]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2023-05-13 00:32:41,426 p=49611 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:32:41,426 p=49611 u=azadi n=ansible | default                    : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:33:01,633 p=49735 u=azadi n=ansible | PLAY [My Localhost Playbook] ***********************************************************************************
+2023-05-13 00:33:01,650 p=49735 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-13 00:33:01,673 p=49735 u=azadi n=ansible | ok: [default] => {
+    "msg": "Initial default HI"
+}
+2023-05-13 00:33:01,677 p=49735 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-13 00:33:01,702 p=49735 u=azadi n=ansible | fatal: [default]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-13 00:33:01,703 p=49735 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:33:01,703 p=49735 u=azadi n=ansible | default                    : ok=1    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:33:04,403 p=49756 u=azadi n=ansible | PLAY [My Localhost Playbook] ***********************************************************************************
+2023-05-13 00:33:04,420 p=49756 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-13 00:33:04,441 p=49756 u=azadi n=ansible | ok: [default] => {
+    "msg": "Initial default HI"
+}
+2023-05-13 00:33:04,445 p=49756 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-13 00:33:04,471 p=49756 u=azadi n=ansible | fatal: [default]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-13 00:33:04,472 p=49756 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:33:04,473 p=49756 u=azadi n=ansible | default                    : ok=1    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:33:17,549 p=49819 u=azadi n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  could not find expected ':'
+
+The error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/playbook/default.yml': line 9, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  become
+  become_method: sudo
+  ^ here
+
+2023-05-13 00:33:32,105 p=49886 u=azadi n=ansible | PLAY [My Localhost Playbook] ***********************************************************************************
+2023-05-13 00:33:32,125 p=49886 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-13 00:33:32,148 p=49886 u=azadi n=ansible | ok: [default] => {
+    "msg": "Initial default HI"
+}
+2023-05-13 00:33:32,152 p=49886 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-13 00:33:32,177 p=49886 u=azadi n=ansible | fatal: [default]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-13 00:33:32,178 p=49886 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:33:32,178 p=49886 u=azadi n=ansible | default                    : ok=1    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:34:26,079 p=50103 u=azadi n=ansible | ERROR! A malformed block was encountered while loading tasks: {'apt': {'name': 'git', 'state': 'present'}} should be a list or None but is <class 'ansible.parsing.yaml.objects.AnsibleMapping'>
+
+The error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/playbook/default.yml': line 6, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: My Localhost Playbook
+  ^ here
+
+2023-05-13 00:34:55,449 p=50226 u=azadi n=ansible | ERROR! A malformed block was encountered while loading tasks: {'apt': None, 'name': 'git', 'state': 'present'} should be a list or None but is <class 'ansible.parsing.yaml.objects.AnsibleMapping'>
+
+The error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/playbook/default.yml': line 6, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: My Localhost Playbook
+  ^ here
+
+2023-05-13 00:36:17,774 p=50545 u=azadi n=ansible | PLAY [My Localhost Playbook] ***********************************************************************************
+2023-05-13 00:36:17,788 p=50545 u=azadi n=ansible | TASK [install git] *********************************************************************************************
+2023-05-13 00:36:17,813 p=50545 u=azadi n=ansible | fatal: [default]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-13 00:36:17,814 p=50545 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:36:17,814 p=50545 u=azadi n=ansible | default                    : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:39:18,556 p=51239 u=azadi n=ansible | PLAY [My Localhost Playbook] ***********************************************************************************
+2023-05-13 00:39:18,576 p=51239 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-13 00:39:18,596 p=51239 u=azadi n=ansible | ok: [default] => {
+    "msg": "Initial default HI"
+}
+2023-05-13 00:39:18,600 p=51239 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-13 00:39:18,626 p=51239 u=azadi n=ansible | fatal: [default]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-13 00:39:18,627 p=51239 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:39:18,627 p=51239 u=azadi n=ansible | default                    : ok=1    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:39:45,268 p=51358 u=azadi n=ansible | PLAY [My Localhost Playbook] ***********************************************************************************
+2023-05-13 00:39:45,285 p=51358 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-13 00:39:45,305 p=51358 u=azadi n=ansible | fatal: [localhost]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'VER' is undefined. 'VER' is undefined\n\nThe error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/roles/default/tasks/main.yml': line 3, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: print messages\n  ^ here\n"}
+2023-05-13 00:39:45,306 p=51358 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:39:45,307 p=51358 u=azadi n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:40:20,833 p=51503 u=azadi n=ansible | PLAY [My Localhost Playbook] ***********************************************************************************
+2023-05-13 00:40:20,850 p=51503 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-13 00:40:20,872 p=51503 u=azadi n=ansible | ok: [localhost] => {
+    "msg": "Initial default HI"
+}
+2023-05-13 00:40:20,876 p=51503 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-13 00:40:20,900 p=51503 u=azadi n=ansible | fatal: [localhost]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-13 00:40:20,900 p=51503 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:40:20,901 p=51503 u=azadi n=ansible | localhost                  : ok=1    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:41:25,236 p=51752 u=azadi n=ansible | PLAY [My Localhost Playbook] ***********************************************************************************
+2023-05-13 00:41:25,254 p=51752 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-13 00:41:25,278 p=51752 u=azadi n=ansible | ok: [default] => {
+    "msg": "Initial default HI"
+}
+2023-05-13 00:41:25,283 p=51752 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-13 00:41:25,311 p=51752 u=azadi n=ansible | fatal: [default]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-13 00:41:25,312 p=51752 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:41:25,312 p=51752 u=azadi n=ansible | default                    : ok=1    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:41:58,272 p=51894 u=azadi n=ansible | PLAY [My Localhost Playbook] ***********************************************************************************
+2023-05-13 00:41:58,292 p=51894 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-13 00:41:58,315 p=51894 u=azadi n=ansible | ok: [default] => {
+    "msg": "Initial default HI"
+}
+2023-05-13 00:41:58,318 p=51894 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-13 00:41:58,343 p=51894 u=azadi n=ansible | fatal: [default]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-13 00:41:58,344 p=51894 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:41:58,344 p=51894 u=azadi n=ansible | default                    : ok=1    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:42:28,834 p=52033 u=azadi n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: deafult
+
+2023-05-13 00:42:28,835 p=52033 u=azadi n=ansible | PLAY [My Localhost Playbook] ***********************************************************************************
+2023-05-13 00:42:28,835 p=52033 u=azadi n=ansible | skipping: no hosts matched
+2023-05-13 00:42:28,835 p=52033 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:42:45,976 p=52105 u=azadi n=ansible | PLAY [My Localhost Playbook] ***********************************************************************************
+2023-05-13 00:42:45,995 p=52105 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-13 00:42:46,016 p=52105 u=azadi n=ansible | ok: [default] => {
+    "msg": "Initial default HI"
+}
+2023-05-13 00:42:46,020 p=52105 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-13 00:42:46,045 p=52105 u=azadi n=ansible | fatal: [default]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-13 00:42:46,046 p=52105 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:42:46,046 p=52105 u=azadi n=ansible | default                    : ok=1    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:45:44,481 p=52765 u=azadi n=ansible | ERROR! the playbook: local.yml could not be found
+2023-05-13 00:46:18,486 p=52890 u=azadi n=ansible | [WARNING]: Unable to parse /home/azadi/Desktop/ansible-base-django/ansible/localhost as an inventory source
+
+2023-05-13 00:46:18,486 p=52890 u=azadi n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-05-13 00:46:18,489 p=52890 u=azadi n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not
+match 'all'
+
+2023-05-13 00:46:18,653 p=52890 u=azadi n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: local
+
+2023-05-13 00:46:18,654 p=52890 u=azadi n=ansible | PLAY [Run a command on the local machine] **********************************************************************
+2023-05-13 00:46:18,654 p=52890 u=azadi n=ansible | skipping: no hosts matched
+2023-05-13 00:46:18,654 p=52890 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:47:08,756 p=53084 u=azadi n=ansible | [WARNING]: Unable to parse /home/azadi/Desktop/ansible-base-django/ansible/localhost as an inventory source
+
+2023-05-13 00:47:08,756 p=53084 u=azadi n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-05-13 00:47:08,760 p=53084 u=azadi n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not
+match 'all'
+
+2023-05-13 00:47:08,920 p=53084 u=azadi n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: local
+
+2023-05-13 00:47:08,921 p=53084 u=azadi n=ansible | PLAY [Run a command on the local machine] **********************************************************************
+2023-05-13 00:47:08,921 p=53084 u=azadi n=ansible | skipping: no hosts matched
+2023-05-13 00:47:08,921 p=53084 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:47:20,976 p=53134 u=azadi n=ansible | PLAY [Run a command on the local machine] **********************************************************************
+2023-05-13 00:47:20,985 p=53134 u=azadi n=ansible | TASK [Gathering Facts] *****************************************************************************************
+2023-05-13 00:47:22,075 p=53134 u=azadi n=ansible | ok: [localhost]
+2023-05-13 00:47:22,106 p=53134 u=azadi n=ansible | TASK [Execute a command] ***************************************************************************************
+2023-05-13 00:47:22,431 p=53134 u=azadi n=ansible | changed: [localhost]
+2023-05-13 00:47:22,470 p=53134 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:47:22,470 p=53134 u=azadi n=ansible | localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:47:50,340 p=53366 u=azadi n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: default
+
+2023-05-13 00:47:50,340 p=53366 u=azadi n=ansible | PLAY [My Localhost Playbook] ***********************************************************************************
+2023-05-13 00:47:50,341 p=53366 u=azadi n=ansible | skipping: no hosts matched
+2023-05-13 00:47:50,341 p=53366 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:48:37,110 p=53567 u=azadi n=ansible | [WARNING]: Found both group and host with same name: all
+
+2023-05-13 00:48:37,287 p=53567 u=azadi n=ansible | PLAY [My Localhost Playbook] ***********************************************************************************
+2023-05-13 00:48:37,306 p=53567 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-13 00:48:37,326 p=53567 u=azadi n=ansible | fatal: [all]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'VER' is undefined. 'VER' is undefined\n\nThe error appears to be in '/home/azadi/Desktop/ansible-base-django/ansible/roles/default/tasks/main.yml': line 3, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: print messages\n  ^ here\n"}
+2023-05-13 00:48:37,327 p=53567 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:48:37,327 p=53567 u=azadi n=ansible | all                        : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:49:09,501 p=53697 u=azadi n=ansible | [WARNING]: Found both group and host with same name: all
+
+2023-05-13 00:49:09,671 p=53697 u=azadi n=ansible | PLAY [My Localhost Playbook] ***********************************************************************************
+2023-05-13 00:49:09,688 p=53697 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-13 00:49:09,708 p=53697 u=azadi n=ansible | ok: [all] => {
+    "msg": "Initial default"
+}
+2023-05-13 00:49:09,712 p=53697 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-13 00:49:09,996 p=53697 u=azadi n=ansible | fatal: [all]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2023-05-13 00:49:09,997 p=53697 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:49:09,997 p=53697 u=azadi n=ansible | all                        : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:50:08,912 p=53966 u=azadi n=ansible | [WARNING]: Unable to parse /home/azadi/Desktop/ansible-base-django/ansible/inventory/localhost as an inventory
+source
+
+2023-05-13 00:50:08,912 p=53966 u=azadi n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-05-13 00:50:08,916 p=53966 u=azadi n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not
+match 'all'
+
+2023-05-13 00:50:09,090 p=53966 u=azadi n=ansible | PLAY [My Localhost Playbook] ***********************************************************************************
+2023-05-13 00:50:09,091 p=53966 u=azadi n=ansible | skipping: no hosts matched
+2023-05-13 00:50:09,091 p=53966 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:50:24,318 p=54034 u=azadi n=ansible | PLAY [My Localhost Playbook] ***********************************************************************************
+2023-05-13 00:50:24,335 p=54034 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-13 00:50:24,357 p=54034 u=azadi n=ansible | ok: [default] => {
+    "msg": "Initial default HI"
+}
+2023-05-13 00:50:24,361 p=54034 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-13 00:50:24,385 p=54034 u=azadi n=ansible | fatal: [default]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-05-13 00:50:24,386 p=54034 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:50:24,386 p=54034 u=azadi n=ansible | default                    : ok=1    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-05-13 00:53:00,885 p=54534 u=azadi n=ansible | PLAY [My Localhost Playbook] ***********************************************************************************
+2023-05-13 00:53:00,906 p=54534 u=azadi n=ansible | TASK [default : print messages] ********************************************************************************
+2023-05-13 00:53:00,928 p=54534 u=azadi n=ansible | ok: [default] => {
+    "msg": "Initial default HI"
+}
+2023-05-13 00:53:00,932 p=54534 u=azadi n=ansible | TASK [default : Install Git] ***********************************************************************************
+2023-05-13 00:53:00,953 p=54534 u=azadi n=ansible | fatal: [default]: FAILED! => {"msg": "to use the 'ssh' connection type with passwords or pkcs11_provider, you must install the sshpass program"}
+2023-05-13 00:53:00,954 p=54534 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
+2023-05-13 00:53:00,954 p=54534 u=azadi n=ansible | default                    : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   

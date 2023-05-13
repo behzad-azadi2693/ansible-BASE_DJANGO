@@ -1,0 +1,7 @@
+#set host for install and running
+
+all:
+  hosts:
+    default:
+      ansible_host: localhost
+
