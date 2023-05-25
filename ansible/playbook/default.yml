@@ -1,11 +1,8 @@
 #this file for run prerequisite
 
-- name: My Localhost Playbook
+- name: run prerequisite
   hosts: all
   become: True
-  become_method: sudo
-  vars:
-    become_pass: b.a.2693
   gather_facts: false
   roles:
    - default

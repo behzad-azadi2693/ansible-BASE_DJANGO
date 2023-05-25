@@ -1,0 +1,19 @@
+#for clone project of ripository 
+
+
+- name: Create a directory if it does not exist
+  file:
+    path: /var/www/{{ item }}
+    state: directory
+    recurse: yes
+    mode: 0777
+  loop:
+    - backend
+    - frontend
+
+- name: Clone project of ripository
+  git:
+    repo: https://github.com/behzad-azadi2693/BASE_DJANGO.git
+    dest: /var/www/backend/
+    clone: yes
+    update: yes

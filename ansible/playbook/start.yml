@@ -1,0 +1,8 @@
+#this file for run all task with one command
+
+- import_playbook: test.yml
+- import_playbook: default.yml
+- import_playbook: docker.ir.yml
+- import_playbook: resolve.yml
+- import_playbook: clone.yml
+

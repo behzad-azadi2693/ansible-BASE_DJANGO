@@ -1,4 +1,0 @@
-#this file for run all task with one command
-
-- import_playbook: default.yml
-

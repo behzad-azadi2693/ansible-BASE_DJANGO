@@ -1,0 +1,12 @@
+#this file for config resolve.conf
+
+- name: change dns for shecan
+  blockinfile:
+    path: /ets/resolve.conf
+    block: |
+      nameserver 185.51.200.2
+      nameserver 178.22.122.100
+    create: yes
+    backup: yes
+
+

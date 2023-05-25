@@ -1,0 +1,7 @@
+#this for print a meesage
+
+- name: Run a command on the machine
+  hosts: all
+  tasks:
+    - name: Execute a command
+      command: echo "Hello, world!"

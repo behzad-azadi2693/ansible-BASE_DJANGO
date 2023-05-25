@@ -1,5 +1,0 @@
-- name: Run a command on the local machine
-  hosts: local
-  tasks:
-    - name: Execute a command
-      command: echo "Hello, world!"

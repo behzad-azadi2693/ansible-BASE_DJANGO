@@ -1,8 +1,5 @@
 #for default install all prerequisite
 
-- name: print messages
-  debug:
-    msg: "Initial default {{ VER }}"
 
 - name: Install Git
   become: True
@@ -11,43 +8,47 @@
     state: present
     update_cache: yes
 
-- name: Create Directory
+- name: Install docker packages
   become: True
-  file:
-    state: directory
-    path: "/var/www/backend"
-    mode: 0777
+  apt:
+    name: name: ['apt-transport-https','ca-certificates', 'curl', 'software-properties-common']
+    state: present
+    update_cache: yes
 
-- name: Update apt cache
+- name: Add Docker s GPG key for ubuntu from official site
+    become: True
+    apt_key:
+      url: https://download.docker.com/linux/ubuntu/gpg
+      state: present
+
+- name: Verify gpg key with the fingerprint
+  become: True
+  apt_key:
+    id: 0EBFCD88
+    state: present
+
+- name: Configure Docker for ubuntu stable repository
+  become: True
+  apt_repository:
+    repo: deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable
+    state: present
+    update_cache: yes
+
+- name: Update apt packages
+  become: True
   apt:
     update_cache: yes
 
-- name: Install required packages
-  apt:
-    name: ['apt-transport-https', 'ca-certificates', 'curl', 'gnupg', 'lsb-release']
-    state: present
-
-- name: Add Docker's official GPG key
-  apt_key:
-    url: https://download.docker.com/linux/ubuntu/gpg
-    state: present
-
-- name: Add Docker's apt repository
-  apt_repository:
-    repo: deb [arch=amd64] https://download.docker.com/linux/ubuntu {{ ansible_lsb.codename }} stable
-    state: present
-
-- name: Install Docker
+- name: Install docker-ce
+  become: True
   apt:
     name: docker-ce
     state: present
+    update_cache: yes
 
-- name: Install python-pip
-  apt:
-    name: python-pip
-    state: present
-
-- name: Install Docker Compose
-  pip:
-    name: docker-compose
-    state: present
+- name: Install docker-compose from official github repo
+  become: True
+  get_url: 
+    url : https://github.com/docker/compose/releases/download/1.29.2/docker-compose-Linux-x86_64
+    dest: /usr/local/bin/docker-compose
+    mode: 0777

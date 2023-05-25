@@ -1,0 +1,38 @@
+#this file for running docker.ir
+
+- name: Create a directory if it does not exist
+  file:
+    path: /etc/apt
+    state: directory
+    recurse: yes
+    mode: 0777
+
+- name: Create a directory if it does not exist
+  file:
+    path: /etc/docker
+    state: directory
+    recurse: yes
+    mode: 0777
+
+- name: Copy file of docker.ir directory to machin
+  copy:
+    src: files/etc/apt/apt.conf
+    dest: /etc/apt/apt.conf
+    mode: 0777
+
+- name: Copy file of docker.ir directory to machin
+  copy:
+    src: files/etc/docker/daemon.json
+    dest: /etc/docker/daemon.json
+    mode: 0777
+
+- name: Reload systemd daemon
+  become: true
+  systemd:
+    daemon_reload: yes
+
+- name: restart NGINX service 
+  become: true
+  systemd: 
+    name: docker
+    state: restarted

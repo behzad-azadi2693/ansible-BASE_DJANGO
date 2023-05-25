@@ -899,3 +899,22 @@ match 'all'
 2023-05-13 00:53:00,953 p=54534 u=azadi n=ansible | fatal: [default]: FAILED! => {"msg": "to use the 'ssh' connection type with passwords or pkcs11_provider, you must install the sshpass program"}
 2023-05-13 00:53:00,954 p=54534 u=azadi n=ansible | PLAY RECAP *****************************************************************************************************
 2023-05-13 00:53:00,954 p=54534 u=azadi n=ansible | default                    : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-05-25 13:04:49,271 p=16747 u=azadi n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: test
+
+2023-05-25 13:04:49,272 p=16747 u=azadi n=ansible | [WARNING]: No hosts matched, nothing to do
+
+2023-05-25 13:05:09,158 p=16777 u=azadi n=ansible | default | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused",
+    "unreachable": true
+}
+2023-05-25 13:26:42,343 p=19150 u=azadi n=ansible | default | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: root@localhost: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2023-05-25 13:33:00,198 p=19776 u=azadi n=ansible | default | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: root@localhost: Permission denied (publickey,password).",
+    "unreachable": true
+}

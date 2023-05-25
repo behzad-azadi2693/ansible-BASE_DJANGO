@@ -1,0 +1,8 @@
+#this file for clone roles
+
+- name: Clone priject of the git repository
+  hosts: all
+  become: True
+  gather_facts: false
+  roles:
+   - clone
